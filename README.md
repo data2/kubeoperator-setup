@@ -24,6 +24,17 @@ koctl status
 
 ## 在线安装
 
+```
+# 安装
+curl -sSL https://github.com/KubeOperator/KubeOperator/releases/latest/download/quick_start.sh -o quick_start.sh
+sh quick_start.sh
+# 检查服务状态
+koctl status
+# 若有异常，可重新启动
+koctl restart
+
+```
+
 ## 使用
 
 ```
